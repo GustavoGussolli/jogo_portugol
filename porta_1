@@ -1,0 +1,105 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+		inteiro inicio
+		cadeia nome
+
+		escreva("qual o seu nome: ")
+		leia(nome)
+		limpa()
+		
+	
+		escreva("\n Digite 1 para a primeira porta ou 2 para a segunda porta: ")
+		leia(inicio)
+		u.aguarde(5000)
+		limpa()
+
+		se(inicio == 1){
+
+	escreva("Quando ", nome , " vai abrir a porta, dá um frio na sua barriga ")
+	u.aguarde(5000)
+	limpa()
+
+	escreva("Mas mesmo assustado com aquela energia estranha que havia naquele local")
+	u.aguarde(5000)
+	limpa()
+
+	escreva(nome, " Abre a porta ")
+	u.aguarde(5000)
+	limpa()
+
+	escreva("dentro daquela porta possui  ")
+	u.aguarde(5000)
+	limpa()
+
+	escreva("Uma tubulação ")
+	u.aguarde(5000)
+	limpa()
+
+
+	escreva("    ***** \n ")
+	u.aguarde(1000)
+	escreva(" *       * \n ")
+	u.aguarde(1000)
+	escreva("*         * \n ")
+	u.aguarde(1000)
+	escreva("*         * \n ")
+	u.aguarde(1000)
+	escreva(" *       * \n ")
+	u.aguarde(1000)
+	escreva("   ***** \n ")
+
+	
+
+
+	escreva("Bom vamos entrar na tubulação")
+	u.aguarde(5000)
+	limpa()
+
+	escreva(nome , " Entra dentro da tubulação")
+	u.aguarde(5000)
+	limpa()
+
+	escreva(nome , " Fala")
+	u.aguarde(5000)
+	limpa()
+
+	escreva("- Há muitos ratos aqui")
+	u.aguarde(5000)
+	limpa()
+
+
+
+
+
+	escreva(nome , " Encontra uma saida na tubulação ")
+	u.aguarde(5000)
+	limpa()
+
+	escreva(nome , " Abre a saida e caí em uma sala ")
+	u.aguarde(5000)
+	limpa()
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
+}
