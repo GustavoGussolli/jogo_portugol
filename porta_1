@@ -1,20 +1,4 @@
-programa
-{
-	inclua biblioteca Util --> u
-	
-	funcao inicio()
-	{
-		inteiro inicio
-		cadeia nome
-		inteiro perguntas
-		inteiro perguntas2
-		inteiro codigo
 
-		escreva("qual o seu nome: ")
-		leia(nome)
-		limpa()
-		
-	
 		escreva("\n Digite 1 para a primeira porta ou 2 para a segunda porta: ")
 		leia(inicio)
 		u.aguarde(5000)
@@ -90,9 +74,16 @@ programa
 	u.aguarde(7000)
 	limpa()
 
+	
+
 	escreva("E tambem tem uma pessoa  ")
 	u.aguarde(5000)
 	limpa()
+
+
+		
+
+	
 
 	escreva("Então voce dicide falar com a pessoa ")
 	u.aguarde(5000)
@@ -144,18 +135,44 @@ programa
 	u.aguarde(5000)
 	limpa()
 
+	escreva("-Como voce sabe a senha? ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("-É que eu sou Hacker ")
+		u.aguarde(5000)
+		limpa()
+
+
 	escreva("-ok,obrigado ")
 	u.aguarde(5000)
 	limpa()
 
-		escreva("vamos colocar o codigo que aquele cara falou ")
+		escreva("Vamos colocar o codigo que aquele cara falou ")
 		u.aguarde(5000)
 		limpa()
 
-		escreva("o codigo era 2008")
-		leia(codigo)
+
+		escreva("O codigo era 2008")
 		u.aguarde(5000)
 		limpa()
+
+
+		escreva(" ________ \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|      O | \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|________| \n ")
+
+
 
 		escreva("insira o codigo: ")
 		leia(codigo)
@@ -186,6 +203,16 @@ programa
 			escreva("voce avista um carro passando e voce grita")
 			u.aguarde(5000)
 			limpa()
+
+			escreva("      _____")
+			u.aguarde(1000)
+			escreva(" ____/|_||_`.__  \n")
+			u.aguarde(1000)
+			escreva("|            __|  | \n")
+			u.aguarde(1000)
+			escreva("|  (o)------(o)'J  \n")
+
+			
 
 			escreva("-Ei")
 			u.aguarde(5000)
@@ -220,6 +247,18 @@ programa
 		escreva("-Sim é so voce colocar o codigo 2008 naquela porta ")
 		u.aguarde(5000)
 		limpa()
+
+		escreva("como voce sabe a senha? ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("É que eu sou Hacker ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("-ok,obrigado ")
+	u.aguarde(5000)
+	limpa()
 
 		escreva(" Digite 1 para perguntar \n quem é voce Quem é voce ")
 	leia(perguntas2)
@@ -257,9 +296,24 @@ programa
 		limpa()
 
 		escreva("o codigo era 2008")
-		leia(codigo)
 		u.aguarde(5000)
 		limpa()
+
+		escreva(" ________ \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|      O | \n")
+		u.aguarde(1000)
+		escreva("|        | \n")
+		u.aguarde(1000)
+		escreva("|________| \n ")
+
+		
 
 		escreva("insira o codigo: ")
 		leia(codigo)
@@ -279,7 +333,7 @@ programa
 
 		se(codigo == 2008){
 
-			escreva("abriu")
+			escreva("Abriu")
 			u.aguarde(5000)
 			limpa()
 
@@ -287,7 +341,19 @@ programa
 			u.aguarde(5000)
 			limpa()
 
-			escreva("voce avista um carro passando e voce grita")
+			
+
+			escreva("      _____")
+			u.aguarde(1000)
+			escreva(" ____/|_||_`.__  \n")
+			u.aguarde(1000)
+			escreva("|            __|  | \n")
+			u.aguarde(1000)
+			escreva("|  (o)------(o)'J  \n")
+
+
+
+			escreva("Voce avista um carro passando e voce grita")
 			u.aguarde(5000)
 			limpa()
 
