@@ -1,0 +1,279 @@
+se(inicio == 2){
+
+	escreva(" _______ \n")
+ 	escreva("|       | \n")
+ 	escreva("|       |\n")
+ 	escreva("|       |\n")
+ 	escreva("|     o |\n")
+ 	escreva("|       |\n")
+ 	escreva("|_______| \n")
+
+		escreva("Quando voce abre a porta")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce observa oque possui dentro daquela porta")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Dentro daquela sala possuia uma escada para descer")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Digite 1 para descer as escadas \n")
+		leia(escadas)
+		u.aguarde(5000)
+		limpa()
+
+		enquanto(escadas != 1){
+
+		escreva("Digite 1 para descer as escadas \n ")
+		leia(escadas)
+		u.aguarde(5000)
+		limpa()
+		}
+
+
+		se(escadas == 1){
+
+		
+
+		escreva("Quando voce vai descendo")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce pergunta para si mesmo ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("-Como que eu fui parar aqui")
+		u.aguarde(5000)
+		limpa()
+
+
+		escreva("Voce chega finalmente no final das escadas")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Há uma porta e uma janela")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("digite 1 para abrir a porta ou digite 2 para abrir a janela \n")
+		leia(escolha_escadas)
+		u.aguarde(5000)
+		limpa()
+
+		se(escolha_escadas == 2){
+
+
+			
+		escreva(" +------+ \n")    
+		escreva(" |      | \n")    
+		escreva(" |      | \n")   
+		escreva(" +------+ \n ")  
+
+		escreva("Voce consegue abrir aquela janela")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai passar pela janela para fujir daquele local ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba escorregando ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("E acaba caindo ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba morrendo ao quebrar o pescoço")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Ruim \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		
+		
+			
+		}
+
+		se(escolha_escadas == 1 ){
+
+		escreva("Voce abre a porta")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Dentro da porta havia ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Um escorregador azul , um escorregador amarelo e um escorregdor verde")
+		u.aguarde(5000)
+		limpa()
+
+		
+	escreva("     AZUL \n")
+	escreva("    ******* \n")
+  escreva("  *          * \n")
+  escreva("*             * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*  	       * \n")
+ escreva(" *            * \n")
+   escreva ("    ******* \n \n")
+
+   escreva("    AMARELO \n")
+	escreva("    ******* \n")
+  escreva("  *          * \n")
+  escreva("*             * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*  	       * \n")
+ escreva(" *            * \n")
+     escreva ("    ******* \n \n")
+
+     
+	escreva("     VERDE \n")
+	escreva("    ******* \n")
+  escreva("  *          * \n")
+  escreva("*             * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*  	       * \n")
+ escreva(" *            * \n")
+  escreva ("    ******* \n \n")
+
+    
+
+		escreva(" Digite 1 para o azul \n Digite 2 para amarelo \n Digite 3 para verde \n")
+		leia(escorregador)
+		u.aguarde(5000)
+		limpa()
+
+
+
+		se(escorregador == 1){
+
+		escreva("Voce escolheu o escorregador azul")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai escorrendo voce acaba vendo uma luz ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Mas quando voce chega na luz")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba caindo em um rio")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai sair daquele rio ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Um jacare gigante surge e devora voce")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Ruim \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		u.aguarde(5000)
+		limpa()
+
+			
+		}
+
+		se(escorregador == 2 ){
+
+
+			escreva("Voce escolhe o escorregador amarelo")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Enquanto voce vai escoregando observa uma luz no final do escorregador")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce sai do escorregador e vê que está no jardim de casa")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Bom \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		u.aguarde(5000)
+		limpa()
+
+
+
+		
+		}
+
+		se(escorregador ==3){
+
+		escreva("Voce escolhe o escorregador verde ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Enquanto voce vai escorregando no escorregador ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba vendo que há uma parede cheia de rochas pontudas")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce até tenta parar de escorregar ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Mas voce não consegue e acaba morrendo após ser perfurado por uma rocha pontuda ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Ruim \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		u.aguarde(5000)
+		limpa()
+			
+		}
+			
+		}
+
+
+
+
+
+
+
+
+
+		
+			
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		}
+	}
+}
