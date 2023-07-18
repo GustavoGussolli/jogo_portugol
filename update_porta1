@@ -107,7 +107,7 @@ limpa()
 	u.aguarde(5000)
 	limpa()
 
-	escreva("digite 1 para perguntar \n -Quem é voce \n -digite 2 para perguntar \n -Como faz para sair desse lugar? \n : ")
+	escreva("digite 1 para perguntar \n -Quem é voce? \n -digite 2 para perguntar \n -Como faz para sair desse lugar? \n : ")
 	leia(perguntas)
 	u.aguarde(5000)
 	limpa()
@@ -588,7 +588,7 @@ escreva("-Sim é so voce colocar o codigo 2008 naquela porta ")
 		limpa()
 
 
-		escreva("-como voce sabe a senha? ")
+		escreva("-Como voce sabe a senha? ")
 		u.aguarde(5000)
 		limpa()
 
@@ -659,7 +659,7 @@ escreva("-É que eu sou Hacker ")
 		u.aguarde(5000)
 		limpa()
 
-		escreva("-ok,obrigado ")
+		escreva("-Ok,obrigado ")
 	u.aguarde(5000)
 	limpa()
 
