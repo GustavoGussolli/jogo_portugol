@@ -90,7 +90,7 @@ limpa()
 	u.aguarde(5000)
 	limpa()
 
-	escreva("Dentro daquela sala possuia uma porta com uma fechadura que percisa de um codigo ")
+	escreva("Dentro daquela sala possuia uma porta com uma fechadura que precisa de um codigo ")
 	u.aguarde(7000)
 	limpa()
 
