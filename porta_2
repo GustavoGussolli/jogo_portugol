@@ -155,7 +155,14 @@ se(inicio == 2){
 		u.aguarde(5000)
 		limpa()
 
+		enquanto(escorregador != 1 ou escorregador != 2 ou escorregaor != 3){
 
+		escreva(" Digite 1 para o azul \n Digite 2 para amarelo \n Digite 3 para verde \n")
+		leia(escorregador)
+		u.aguarde(5000)
+		limpa()
+			
+		}
 
 		se(escorregador == 1){
 
@@ -220,7 +227,7 @@ se(inicio == 2){
 		u.aguarde(5000)
 		limpa()
 
-		escreva("Enquanto voce vai escorregando no escorregador ")
+		escreva("Enquanto voce vai descendo no escorregador ")
 		u.aguarde(5000)
 		limpa()
 
