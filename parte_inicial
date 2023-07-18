@@ -7,6 +7,10 @@ programa
 
 		cadeia nome
 		inteiro inicio
+		inteiro perguntas,perguntas2,perguntas3
+		inteiro codigo
+		inteiro escadas, escolha_escadas
+		inteiro escorregador
 
 		escreva("informe o seu nome: ")
 		leia(nome)
