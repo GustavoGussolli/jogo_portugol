@@ -89,7 +89,14 @@ programa
 		u.aguarde(1000)
 		limpa()
 
-		
+		enquanto(inicio != 1 ou inicio != 2 ){
+
+		escreva("\n Digite 1 para a primeira porta ou 2 para a segunda porta: ")
+		leia(inicio)
+		u.aguarde(1000)
+		limpa()
+			
+		}
 
 	}
 }
