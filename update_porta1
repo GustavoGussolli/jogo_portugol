@@ -107,7 +107,7 @@ limpa()
 	u.aguarde(5000)
 	limpa()
 
-	escreva("digite 1 para perguntar \n -Quem é voce \n -digite 2 para perguntar \n Como faz para sair desse lugar \n : ")
+	escreva("digite 1 para perguntar \n -Quem é voce \n -digite 2 para perguntar \n -Como faz para sair desse lugar? \n : ")
 	leia(perguntas)
 	u.aguarde(5000)
 	limpa()
@@ -252,7 +252,7 @@ escreva("!!!:..!#######!!!!###!!###!:@@@@@@@@#:.!#@@@@#!#!############!!!!!!!!!!
 		u.aguarde(5000)
 		limpa()
 
-		escreva("Digite 1 para perguntar \n -Como faz para sair desse lugar \n : ")
+		escreva("Digite 1 para perguntar \n -Como faz para sair desse lugar ? \n : ")
 	leia(perguntas2)
 	u.aguarde(5000)
 	limpa()
@@ -261,7 +261,7 @@ escreva("!!!:..!#######!!!!###!!###!:@@@@@@@@#:.!#@@@@#!#!############!!!!!!!!!!
 		enquanto(perguntas2 != 1 ){
 
 			
-		escreva("Digite 1 para perguntar \n -Como faz para sair desse lugar \n :")
+		escreva("Digite 1 para perguntar \n -Como faz para sair desse lugar ? \n :")
 	leia(perguntas2)
 	u.aguarde(5000)
 	limpa()
