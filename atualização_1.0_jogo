@@ -1,0 +1,1840 @@
+programa
+{
+	inclua biblioteca Sons --> s
+	inclua biblioteca Util --> u
+
+
+		cadeia nome
+		inteiro inicio_p
+		inteiro perguntas,perguntas2,perguntas3
+		inteiro codigo
+		inteiro escadas, escolha_escadas
+		inteiro escorregador
+		inteiro som = s.carregar_som("son_tecla.mp3")
+		inteiro som1 = s.carregar_som("sons_porta.mp3")
+		inteiro som2 = s.carregar_som("rato")
+		inteiro som3 = s.carregar_som("codigo")
+		inteiro som4 = s.carregar_som("tubulação.mp3")
+		inteiro som5 = s.carregar_som("barulho_carro.mp3")
+		
+	
+	funcao inicio()
+	{
+	
+
+		escreva("informe o seu nome: ")
+		leia(nome)
+		u.aguarde(1000)
+		limpa()
+
+	
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(700)
+		s.interromper_som(som)
+		
+
+		escreva("Na calada ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("da noite ")
+		u.aguarde(500)
+
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva(nome, " despertou ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("assustado , com um ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("sentimento de ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("confusão e desorientção")
+		u.aguarde(500)
+
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Ao abrir os ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("olhos , percebeu que ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("estava deitado em um  ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("lugar desconhecido sem a ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("menor ideia de como ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("havia chegado lá ")
+		u.aguarde(500)
+
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+
+		escreva("A sua frente , ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("estendia-se um corredor ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("sombrio e sinistro , ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("onde há duas portas ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Sem qualquer pista ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+		
+		escreva("sobre sua localização ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("ou o propósito daquele ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("estranho lugar")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva(nome , " sabia que ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("precisava reunir coragem ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+ 
+		escreva("e explorar o corredor ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("á sua frente")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()	
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+
+		escreva("CUIDADO , TODAS AS ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("SUAS ESCOLHAS ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("PODEM ACABAR INFLUENCIANDO ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("NA SUA HISTORIA")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("ENTÃO ESCOLHA ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("COM SABEDORIA")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("qual das portas ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("voce escolhe abrir ")
+		u.aguarde(500)
+
+		escreva("\n")
+
+		escreva(" _____________________________ \n")
+		u.aguarde(300)
+		escreva("|    ESCOLHA COM SABEDORIA   | \n")
+		u.aguarde(300)
+		escreva("|                            | \n")
+		u.aguarde(300)
+		escreva("|  ________        _______   | \n")
+		u.aguarde(300)
+		escreva("| |        |      |       |  | \n")
+		u.aguarde(300)
+		escreva("| |   1°   |      |   2°  |  |  \n")
+		u.aguarde(300)
+		escreva("| |        |      |       |  |   \n")
+		u.aguarde(300)
+		escreva("| |      O |      |     O |  |  \n")
+		u.aguarde(300)
+		escreva("| |        |      |       |  |   \n")
+		u.aguarde(300)
+		escreva("| |________|      |_______|  | \n")
+		u.aguarde(300)
+		escreva("|                            | \n")
+		u.aguarde(300)
+		escreva("|____________________________| \n")
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(5000)
+		s.interromper_som(som)
+
+		escreva("\n Digite 1 - para a primeira porta \n Digite 2 - para a segunda porta \n R: ")
+		leia(inicio_p)
+		u.aguarde(1000)
+		limpa()
+
+		enquanto(inicio_p != 1 ou inicio_p != 2){
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(5000)
+		s.interromper_som(som)
+
+		escreva("\n Digite 1 - para a primeira porta \n Digite 2 - para a segunda porta \n R: ")
+		leia(inicio_p)
+		u.aguarde(1000)
+		limpa()
+			
+		}
+		
+			se(inicio_p == 1){
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Quando " , nome, " vai ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("abrir a porta , dá ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		
+		escreva("um frio na sua barriga ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+		
+		escreva("Mas mesmo assustado ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		
+		escreva("com aquela situação e ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("aquela energia estranha ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("que havia naquele local ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva(nome, " abre a porta ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som1, falso)
+		s.definir_volume(100)
+		u.aguarde(2000)
+		s.interromper_som(som1)
+		
+		escreva("dentro daquela ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("porta possui ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("uma tubulação ")
+		u.aguarde(100)
+		
+		u.aguarde(1000)
+		limpa()
+
+		escreva("    ***** \n ")
+		u.aguarde(300)
+		escreva(" *       * \n ")
+		u.aguarde(300)
+		escreva("*         * \n ")
+		u.aguarde(300)
+		escreva("*         * \n ")
+		u.aguarde(300)
+		escreva(" *       * \n ")
+		u.aguarde(300)
+		escreva("   ***** \n ")
+
+		u.aguarde(3000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		
+		escreva("bom vamos ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("entrar na tubulação ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva(nome , " entra dentro ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+		
+		escreva("da tubulação")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva(nome , " fala ")
+		u.aguarde(1000)
+		limpa()
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+	
+		escreva("- há muitos ratos aqui")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som2, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som2)
+
+		escreva("				RATO					\n")
+		escreva("				  |					\n")
+		escreva("				  V					\n")
+		escreva("                     :::..                                                                                            \n")
+		escreva("                  .:!!.:.:::                                                                                           \n")
+		escreva("              .!!#!!!:!!!!:!###!!!!########!!!!!:                                                                     \n") 
+		escreva("          :!!!!!!!!!:::::!######################!!!!:                                                                  \n")
+		escreva("        :!!!!!!!!!:::::!######################!!!!:                                                                  \n")
+		escreva("      :!!!!!#!!!#!!!!!!#########################!!!!!:                                                               \n")
+		escreva("      :::!!!!#########!###########!!###############!!!!!:                                                              \n")
+		escreva("        ::!!!!!!########!!!######!!#!###!!!#######!###!!!!!!                                                              \n")
+		escreva("          .:!!!###!!!!!#####!!!########!!!!!#!####!!!!!!!.                                                             \n")
+		escreva("             ...:!!!:!!!####!!!!!#!!!#####!!!!####!!!!!!!:.                                                            \n")
+		escreva("                 .::::!!!!!!!!!!!!!!!!!!!!#!!!!!!#!!!!::                                                              \n")
+		escreva("                          :::::!!!!!!!!!!!!!!!!!!!#####!!:                                                               \n")
+		escreva("                          :::::!!!!!!!!!!!!!!!!!!!#####!!:                                                               \n")
+		escreva("                                 .:!!!!##!!!!!!!!!!!####!!:                                                              \n")
+		escreva("                                ::::::!!#!!!##!!!!!!!!::::::::::::::::::...                                            \n")
+		escreva("                                                . . ........::::::::::::::::::::::::.::::::::::.::::::::::....          \n")
+
+		u.aguarde(5000)
+		limpa()
+
+		u.aguarde(1000)
+		escreva(".")
+
+		u.aguarde(1000)
+		escreva(".")
+
+		u.aguarde(1000)
+		escreva(".")
+
+		u.aguarde(1000)
+		limpa()
+
+		
+		s.reproduzir_som(som4, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som4)
+		
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva(nome , " encontra uma saida ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva("na tubulação ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva(nome , " abre a saida e ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+			
+		escreva("cai em uma sala ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva(nome , " observa o local ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+	
+		escreva("que havia caido")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva("Dentro daquele local ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("havia uma porta ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("com uma tranca ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("que precisa de um codigo ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva("E tambem tem ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva("uma pessoa ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+			
+		escreva("Então como não ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+		
+		escreva("temos escolha vamos ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("falar com a pessoa")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(5000)
+		s.interromper_som(som)
+
+		escreva(" digite 1 para perguntar \n -Quem é voce? \n digite 2 para perguntar \n -Como faz para sair desse lugar? \n R: ")
+		leia(perguntas)
+		u.aguarde(1000)
+		limpa()
+
+		enquanto(perguntas != 1 ou perguntas != 2){
+
+			s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(5000)
+		s.interromper_som(som)
+
+		escreva(" digite 1 para perguntar \n -Quem é voce? \n digite 2 para perguntar \n -Como faz para sair desse lugar? \n R: ")
+		leia(perguntas)
+		u.aguarde(1000)
+		limpa()
+
+		se(perguntas == 1 ){
+
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Quem é voce ?")
+
+		u.aguarde(2000)
+		limpa()
+
+			escreva("###!!!!::!!:::::::!:.........................:!!!!!!!!!!!!!!!!!!!:....... .....                   .  .     . ..  .  ... \n")
+	escreva("#####!!!!:#!:.::!::!......................:!!!##!!##!!#!!##!##!#!!!!:........  ...          ..    . ..  .    ..      ... \n")
+	escreva("######!!!!#!:!:!!:!:...................:###!##########!####!###!##!!!!!::......... ..     .  . .      ... ..  ..       . \n")
+	escreva("######!!!#!!::!!!:!....................##!!!########################!!!!!!!!::......         .  .   .  ..  ...  ... ..  \n ")
+	escreva("##########!!!!!!::!.................!#################################!!!#!!!!:.....           .  .   . .          ..... \n")
+	escreva("#########!!!!!!!:!:...............!!!!#################################!!##!!!!:....           ....    ......   ...  . . \n")
+	escreva("########!:::::::::...............:############################################!!:...     . .....        .....      .   . \n ")
+	escreva("#######!::::::::::..............:##################!!!!!!!!!!!!###############!!:...           .   .     . ..........  . \n ")
+	escreva("@#####::::::::::::.............:!############!::::::::::::::::::!!!!!###########!...           .  .     . .   . . . .   \n ")
+	escreva("#####::::::::::::...............!########!!:::.........:::::::::::::::!!!########!:...        ...   .   ..     .. ....   \n ")
+	escreva("###!..:::::::::::...............:######!:::::............:::::::::::::::::!!#######!..   .      .   .             .   .. \n")
+escreva("##:::::::::::::::...............:####!:::::::..:.......:::::::::::::::::::::!######!:..         .               . .   .. \n")
+escreva("!..:::::::::::::................###!:::::::::::::..::.:::::::::::::::::::::::!!!!###!..                      .  .    .  \n")
+escreva(":::::::::::.:.::...............!##!::::::::::.........::::::::::::::::::::::::!!#####!.            .    .        ..     \n")
+escreva(".:::::::::::::::...............!##::::::::::...............::::::::::::::::::::!#####:..        .                .      \n")
+escreva(":::::::::::::::................##!:::::::::::::::::::::..::::::::::::::::::::::!!####!..                  ..       .  . \n")
+escreva(":::::::::::::::................##!:::!!#######!!:::::::::::!!!#########!!::::::!!####:..            ...              .. \n")
+escreva(":::!:::::::::::................##!!############!!!:::::::!!###############!::::!!####..                                 \n")
+escreva("::::###!!:::::.................#######!!!!!!!!!!!!!::::!!!!!!####!!!!!######:::!!###!.                 .                \n")
+escreva("::::########::..............::##!!!!!!!!!!!!!!!!#####@###!!!!!!!!!!!!!!!!!!!#!!:!####..                                 \n")
+escreva(":::::########:..............:!#!!!!!##!!!!!!!####@######!!!!!!!!!!!!!!!!!!!!###..!##!.. .                               \n")
+escreva(":::::!#########!.............:#!!!!!!!############:.::##!!!!#############!!!#!!!!.!#!..                                 \n")
+escreva("..::::##########!.............#::::::!!!!!!!!!!#!:..:::##!!!!!!!!!!!!:!!!!!!!!::!#!#:    .                              \n")
+escreva("..:::::##########:...........!#!:::::::::::::!#!::.:::::##!!!!!!!!!!::::::!!!::::!!::!:                                 \n")
+escreva("....:::!#########@..........!!::###!!!!!!!####::::.::::::!#####!!!!!!!!###!::::::!!!!!!: .                              \n")
+escreva("....::::##########:.........!!::::::::::!!!!!!:::..::::!!!!!!!!!!!!::::::::::::::!:::!!:   .                            \n")
+escreva(".....:::!##########:........!:::::::::::!!!!:::::::::::::::!!!::::::::::::::::::!!!::::.                                \n")
+escreva("...::::::!##@#####@::.......::!:::::::!!!!!::::!::::!!!!::::!!!!!!::::::::::::::!:!::::.                                \n")
+escreva(".......:::###@####@:.:......::!::::!!!!!!!!!####!!!!!#####!!!!!!!!!!!::::::::::!#!!::::.                                \n")
+escreva(".....:::::!#########::::.....::::!!!!!!!!!!##################!!!!!!!!!!!!!!!!:!!!:::::.                                 \n")
+escreva("......:::###########!:::..:..:!:!!!!!##############################!!!!!!!!!::!!!::::: .                                \n")
+escreva("...::::::###@###@@###:..::..:!!!!!!!!###############################!!!!!!!!::!!!:::.                                .  \n")
+escreva(".::::##!###@##@#@#@!:::::..:..:!!!!!############!!!!#################!!!!!!!!!!!!!:.                .                   \n")
+escreva(":::::!#####!#@@@@@#::::::.:.:.:!!!!!#######::::::::!::!!!!!!#########!!!!!!!!!!. .                      .               \n")
+escreva(":::::::####!!@@#@@!::::::::::.:!!!!!!!!!!##!:::::::::::::::!!!##!!##!!!!!!!!!!:.                    .                   \n")
+escreva(":::::::::!:::@@@@@@!:::::::::::#!!!!!!!!!!!!!!!!!!!:!!!!!!!!!!!!!!!!!!!!!!!!!!.                                         \n")
+escreva("::::::::::::!@@@@@@!:::::::::::!#!!!!!!!!:::::!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!:..        .    .      .   .               \n")
+escreva("#@#:::::::::!#@@@#@!::::::::::::!##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!##!..........                                 \n")
+escreva("::!#!::::::::#@@@##!!!:::::::::::!##!!!::!!!##############!!!!!!!!#!#######!........................                    \n")
+escreva("####:::::::::!@@#!!!::::::::::::::####!:::::!!###########!!!!!!!!#########!....................................         \n")
+escreva("::!#:::::::::!@###!:::::::::::::::!#####!!!:!!!!!!##!!!!!!!:!!!#########!!:............................................. \n")
+escreva("####:::::::::####!!!!::::::::::::::########!!#!!####!!!!!!!#############!!!:............................................ \n")
+escreva("::::::::::::!#@##!!!!::::::::::::::!###@###############################!!!!!............................................ \n")
+escreva("::!::::::::!#####!!!!:::::::::::::::#####@###########################!!!#!!!!!.......................................... \n")
+escreva(":!:::::::::!#####!!!!:::::::::::::::!####@@@@@@@@#@@@@@@@@@@@@@###!!!!#!!!!!!!!!........................................ \n")
+escreva("::::::::::!!####!!!!:::::::::::::::::!!#######@@@@@@@@@@@@@#@##!!!!!##!!!!!!!!!!:....................................... \n")
+escreva(":::::::::!!##!#@#!:::::::::::::::!!##!!!!!#################!!!!!!!!##!!!!!!!!!!!!....................................... \n")
+escreva(":::::!!!!!.:!!#@#!!::!:!!!!!!!!!!####!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!!!!:...................................... \n")
+escreva(":::!!!!!!:....!###!!!!!!!!!!!!!#####@#!!!!!!!!!!!!!!!!!!!!!!!!!!!#!#!!!!!#!!!#!!!!!!!!:..!:::::::....................... \n")
+escreva(":!!!!!!!!.......!!!!!!!!!!!!!#!!!##@##!!!!!!!!!!!!!!!!!!!!!!!!!###!!!!!##!!!!!!!!!!!!!!!!!!!::::::::::.................. \n")
+escreva("!!!!!!!!..........!!!!!!!!#!!!!##@@#@@!!!!!!!!!!!!!!!!!!!!!!!!##!!!!###!!!!!!!##!!!!!!!!!!!!!::::::::::::.::::.......... \n")
+escreva("!!!!!!!........:!!!!!!!!!!!!!!#@@##@##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!#!!!!!!!!!!!!:!!!!!::!::::::::::::........ \n")
+escreva("!!!!!!........:!##!!!!!!!!!!##@@!#@##!!!:!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!#!!!!!!!!!!:!:!:!#!!::::::::::::::::....... \n")
+escreva("!!!!!:......:######!!!##!!!##@##@##!!!!!::!!!!!!!!!!!#!:!!!!!!!###!!!!!!!!!!####!!!!!:!:!!!!::::::::::::::::::::::...... \n")
+escreva("!!!!:......!#####!!!!#!!!!##@@!@@@@@@@@@@@@@@@@@@@#!:!!!!!!!!!###!!!!!!!!!!##!!!!!!!:!!!!!!!:::::::::!!!!!!!!!!::::..... \n")
+escreva("!!!!.....!#######!:!!!!####@@:@@@@@@@@@@@@@@@@@#::##!##!!!!!!##!!!!!!!!!!!!##!!!!:::!!!:!!!!!!!!!!!!!!!!!:!!!!::...:.... \n")
+escreva("!!!:....!#######!!!#!!#####@:#@@@@@@@@@@@@@#::!@@@!####@#!!!##!!!!!!!!!!!!##!!!!!::::::::::::::::::!::::::!::::::::::... \n")
+escreva("!!::...##########!!#######@!:@@@@@@@@@@@#::#@@@@!#####@@#@!!!!!!!!!!!!!!!##!!!!!!!!!!!:::::!::::!::::!!!::::::::::::::.. \n")
+escreva("!!!:..!#######!!!!###!!###!:@@@@@@@@#:.!#@@@@#!#!############!!!!!!!!!!###!!!!!!!!!!!::::::::!:::!!!!!!!!#!!!##!!!::::.. \n")
+
+		u.aguarde(3000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Ola meu nome é Jefferson")
+		
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Muito prazer ")
+		
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(4000)
+		s.interromper_som(som)
+
+		escreva(" Digite 1 para perguntar \n - Como faz para sair desse lugar ? \n R: ")
+		leia(perguntas2)
+		u.aguarde(1000)
+		limpa()
+
+		enquanto(perguntas != 1 ){
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(4000)
+		s.interromper_som(som)
+
+		escreva(" Digite 1 para perguntar \n - Como faz para sair desse lugar ? \n R: ")
+		leia(perguntas2)
+		u.aguarde(1000)
+		limpa()
+
+		}
+
+		se(perguntas2 == 1){
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("-Voce sabe como faz para sair desse lugar ?")
+		u.aguarde(2500)
+		limpa()
+
+		
+	escreva("###!!!!::!!:::::::!:.........................:!!!!!!!!!!!!!!!!!!!:....... .....                   .  .     . ..  .  ... \n")
+	escreva("#####!!!!:#!:.::!::!......................:!!!##!!##!!#!!##!##!#!!!!:........  ...          ..    . ..  .    ..      ... \n")
+	escreva("######!!!!#!:!:!!:!:...................:###!##########!####!###!##!!!!!::......... ..     .  . .      ... ..  ..       . \n")
+	escreva("######!!!#!!::!!!:!....................##!!!########################!!!!!!!!::......         .  .   .  ..  ...  ... ..  \n ")
+	escreva("##########!!!!!!::!.................!#################################!!!#!!!!:.....           .  .   . .          ..... \n")
+	escreva("#########!!!!!!!:!:...............!!!!#################################!!##!!!!:....           ....    ......   ...  . . \n")
+	escreva("########!:::::::::...............:############################################!!:...     . .....        .....      .   . \n ")
+	escreva("#######!::::::::::..............:##################!!!!!!!!!!!!###############!!:...           .   .     . ..........  . \n ")
+	escreva("@#####::::::::::::.............:!############!::::::::::::::::::!!!!!###########!...           .  .     . .   . . . .   \n ")
+	escreva("#####::::::::::::...............!########!!:::.........:::::::::::::::!!!########!:...        ...   .   ..     .. ....   \n ")
+	escreva("###!..:::::::::::...............:######!:::::............:::::::::::::::::!!#######!..   .      .   .             .   .. \n")
+escreva("##:::::::::::::::...............:####!:::::::..:.......:::::::::::::::::::::!######!:..         .               . .   .. \n")
+escreva("!..:::::::::::::................###!:::::::::::::..::.:::::::::::::::::::::::!!!!###!..                      .  .    .  \n")
+escreva(":::::::::::.:.::...............!##!::::::::::.........::::::::::::::::::::::::!!#####!.            .    .        ..     \n")
+escreva(".:::::::::::::::...............!##::::::::::...............::::::::::::::::::::!#####:..        .                .      \n")
+escreva(":::::::::::::::................##!:::::::::::::::::::::..::::::::::::::::::::::!!####!..                  ..       .  . \n")
+escreva(":::::::::::::::................##!:::!!#######!!:::::::::::!!!#########!!::::::!!####:..            ...              .. \n")
+escreva(":::!:::::::::::................##!!############!!!:::::::!!###############!::::!!####..                                 \n")
+escreva("::::###!!:::::.................#######!!!!!!!!!!!!!::::!!!!!!####!!!!!######:::!!###!.                 .                \n")
+escreva("::::########::..............::##!!!!!!!!!!!!!!!!#####@###!!!!!!!!!!!!!!!!!!!#!!:!####..                                 \n")
+escreva(":::::########:..............:!#!!!!!##!!!!!!!####@######!!!!!!!!!!!!!!!!!!!!###..!##!.. .                               \n")
+escreva(":::::!#########!.............:#!!!!!!!############:.::##!!!!#############!!!#!!!!.!#!..                                 \n")
+escreva("..::::##########!.............#::::::!!!!!!!!!!#!:..:::##!!!!!!!!!!!!:!!!!!!!!::!#!#:    .                              \n")
+escreva("..:::::##########:...........!#!:::::::::::::!#!::.:::::##!!!!!!!!!!::::::!!!::::!!::!:                                 \n")
+escreva("....:::!#########@..........!!::###!!!!!!!####::::.::::::!#####!!!!!!!!###!::::::!!!!!!: .                              \n")
+escreva("....::::##########:.........!!::::::::::!!!!!!:::..::::!!!!!!!!!!!!::::::::::::::!:::!!:   .                            \n")
+escreva(".....:::!##########:........!:::::::::::!!!!:::::::::::::::!!!::::::::::::::::::!!!::::.                                \n")
+escreva("...::::::!##@#####@::.......::!:::::::!!!!!::::!::::!!!!::::!!!!!!::::::::::::::!:!::::.                                \n")
+escreva(".......:::###@####@:.:......::!::::!!!!!!!!!####!!!!!#####!!!!!!!!!!!::::::::::!#!!::::.                                \n")
+escreva(".....:::::!#########::::.....::::!!!!!!!!!!##################!!!!!!!!!!!!!!!!:!!!:::::.                                 \n")
+escreva("......:::###########!:::..:..:!:!!!!!##############################!!!!!!!!!::!!!::::: .                                \n")
+escreva("...::::::###@###@@###:..::..:!!!!!!!!###############################!!!!!!!!::!!!:::.                                .  \n")
+escreva(".::::##!###@##@#@#@!:::::..:..:!!!!!############!!!!#################!!!!!!!!!!!!!:.                .                   \n")
+escreva(":::::!#####!#@@@@@#::::::.:.:.:!!!!!#######::::::::!::!!!!!!#########!!!!!!!!!!. .                      .               \n")
+escreva(":::::::####!!@@#@@!::::::::::.:!!!!!!!!!!##!:::::::::::::::!!!##!!##!!!!!!!!!!:.                    .                   \n")
+escreva(":::::::::!:::@@@@@@!:::::::::::#!!!!!!!!!!!!!!!!!!!:!!!!!!!!!!!!!!!!!!!!!!!!!!.                                         \n")
+escreva("::::::::::::!@@@@@@!:::::::::::!#!!!!!!!!:::::!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!:..        .    .      .   .               \n")
+escreva("#@#:::::::::!#@@@#@!::::::::::::!##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!##!..........                                 \n")
+escreva("::!#!::::::::#@@@##!!!:::::::::::!##!!!::!!!##############!!!!!!!!#!#######!........................                    \n")
+escreva("####:::::::::!@@#!!!::::::::::::::####!:::::!!###########!!!!!!!!#########!....................................         \n")
+escreva("::!#:::::::::!@###!:::::::::::::::!#####!!!:!!!!!!##!!!!!!!:!!!#########!!:............................................. \n")
+escreva("####:::::::::####!!!!::::::::::::::########!!#!!####!!!!!!!#############!!!:............................................ \n")
+escreva("::::::::::::!#@##!!!!::::::::::::::!###@###############################!!!!!............................................ \n")
+escreva("::!::::::::!#####!!!!:::::::::::::::#####@###########################!!!#!!!!!.......................................... \n")
+escreva(":!:::::::::!#####!!!!:::::::::::::::!####@@@@@@@@#@@@@@@@@@@@@@###!!!!#!!!!!!!!!........................................ \n")
+escreva("::::::::::!!####!!!!:::::::::::::::::!!#######@@@@@@@@@@@@@#@##!!!!!##!!!!!!!!!!:....................................... \n")
+escreva(":::::::::!!##!#@#!:::::::::::::::!!##!!!!!#################!!!!!!!!##!!!!!!!!!!!!....................................... \n")
+escreva(":::::!!!!!.:!!#@#!!::!:!!!!!!!!!!####!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!!!!:...................................... \n")
+escreva(":::!!!!!!:....!###!!!!!!!!!!!!!#####@#!!!!!!!!!!!!!!!!!!!!!!!!!!!#!#!!!!!#!!!#!!!!!!!!:..!:::::::....................... \n")
+escreva(":!!!!!!!!.......!!!!!!!!!!!!!#!!!##@##!!!!!!!!!!!!!!!!!!!!!!!!!###!!!!!##!!!!!!!!!!!!!!!!!!!::::::::::.................. \n")
+escreva("!!!!!!!!..........!!!!!!!!#!!!!##@@#@@!!!!!!!!!!!!!!!!!!!!!!!!##!!!!###!!!!!!!##!!!!!!!!!!!!!::::::::::::.::::.......... \n")
+escreva("!!!!!!!........:!!!!!!!!!!!!!!#@@##@##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!#!!!!!!!!!!!!:!!!!!::!::::::::::::........ \n")
+escreva("!!!!!!........:!##!!!!!!!!!!##@@!#@##!!!:!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!#!!!!!!!!!!:!:!:!#!!::::::::::::::::....... \n")
+escreva("!!!!!:......:######!!!##!!!##@##@##!!!!!::!!!!!!!!!!!#!:!!!!!!!###!!!!!!!!!!####!!!!!:!:!!!!::::::::::::::::::::::...... \n")
+escreva("!!!!:......!#####!!!!#!!!!##@@!@@@@@@@@@@@@@@@@@@@#!:!!!!!!!!!###!!!!!!!!!!##!!!!!!!:!!!!!!!:::::::::!!!!!!!!!!::::..... \n")
+escreva("!!!!.....!#######!:!!!!####@@:@@@@@@@@@@@@@@@@@#::##!##!!!!!!##!!!!!!!!!!!!##!!!!:::!!!:!!!!!!!!!!!!!!!!!:!!!!::...:.... \n")
+escreva("!!!:....!#######!!!#!!#####@:#@@@@@@@@@@@@@#::!@@@!####@#!!!##!!!!!!!!!!!!##!!!!!::::::::::::::::::!::::::!::::::::::... \n")
+escreva("!!::...##########!!#######@!:@@@@@@@@@@@#::#@@@@!#####@@#@!!!!!!!!!!!!!!!##!!!!!!!!!!!:::::!::::!::::!!!::::::::::::::.. \n")
+escreva("!!!:..!#######!!!!###!!###!:@@@@@@@@#:.!#@@@@#!#!############!!!!!!!!!!###!!!!!!!!!!!::::::::!:::!!!!!!!!#!!!##!!!::::.. \n")
+
+		u.aguarde(6000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("-Sim eu sei é só voce pegar e colocar o codigo 2008 ")
+		u.aguarde(5000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- Como voce sabe a senha ? ")
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- É que eu sou Hacker ")
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(2000)
+		s.interromper_som(som)
+
+		escreva("- Ok , obrigado ")
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Vamos colocar o ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("codigo que aquele ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("cara falou")
+		u.aguarde(500)
+
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("O codigo era 2008")
+
+		
+		u.aguarde(2000)
+		limpa()
+
+
+		escreva(" ________ \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|      O | \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|________| \n ")
+
+
+
+		escreva("insira o codigo: ")
+		leia(codigo)
+		u.aguarde(1000)
+		limpa()
+
+
+		enquanto(codigo != 2008){
+
+		s.reproduzir_som(som3, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som3)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(4000)
+		s.interromper_som(som)
+
+		escreva(" incorreto \n ")
+		escreva("insira o codigo: ")
+		leia(codigo)
+		u.aguarde(1000)
+		limpa()
+		}
+
+		se(codigo == 2008){
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("abriu")
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Quando voce abre ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("aquela porta")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("voce avista um carro ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("passando e voce grita")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Ei ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Socorro ")
+		u.aguarde(500)
+
+		
+		escreva("      _____ \n")
+		u.aguarde(500)
+		escreva(" ____/|_||_`.__  \n")
+		u.aguarde(500)
+		escreva("|            __|  \n")
+		u.aguarde(500)
+		escreva("---(o)------(o)'J  \n")
+
+		s.reproduzir_som(som5, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som5)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("o carro parou ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("e resgatou voce ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("e o Jefferson")
+		u.aguarde(500)
+
+		u.aguarde(3000)
+		limpa()
+
+		escreva(" FIM \n")
+		escreva(" Final Bom \n")
+		escreva(" Criador: Gustavo do Nascimento \n")
+		escreva("Obrigado por jogar")
+			
+		}
+		}
+	}
+
+	se(perguntas == 2 ){
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- Voce sabe como faz para sair desse lugar ? ")
+		
+		u.aguarde(2000)
+		limpa()
+
+
+			escreva("###!!!!::!!:::::::!:.........................:!!!!!!!!!!!!!!!!!!!:....... .....                   .  .     . ..  .  ... \n")
+	escreva("#####!!!!:#!:.::!::!......................:!!!##!!##!!#!!##!##!#!!!!:........  ...          ..    . ..  .    ..      ... \n")
+	escreva("######!!!!#!:!:!!:!:...................:###!##########!####!###!##!!!!!::......... ..     .  . .      ... ..  ..       . \n")
+	escreva("######!!!#!!::!!!:!....................##!!!########################!!!!!!!!::......         .  .   .  ..  ...  ... ..  \n ")
+	escreva("##########!!!!!!::!.................!#################################!!!#!!!!:.....           .  .   . .          ..... \n")
+	escreva("#########!!!!!!!:!:...............!!!!#################################!!##!!!!:....           ....    ......   ...  . . \n")
+	escreva("########!:::::::::...............:############################################!!:...     . .....        .....      .   . \n ")
+	escreva("#######!::::::::::..............:##################!!!!!!!!!!!!###############!!:...           .   .     . ..........  . \n ")
+	escreva("@#####::::::::::::.............:!############!::::::::::::::::::!!!!!###########!...           .  .     . .   . . . .   \n ")
+	escreva("#####::::::::::::...............!########!!:::.........:::::::::::::::!!!########!:...        ...   .   ..     .. ....   \n ")
+	escreva("###!..:::::::::::...............:######!:::::............:::::::::::::::::!!#######!..   .      .   .             .   .. \n")
+escreva("##:::::::::::::::...............:####!:::::::..:.......:::::::::::::::::::::!######!:..         .               . .   .. \n")
+escreva("!..:::::::::::::................###!:::::::::::::..::.:::::::::::::::::::::::!!!!###!..                      .  .    .  \n")
+escreva(":::::::::::.:.::...............!##!::::::::::.........::::::::::::::::::::::::!!#####!.            .    .        ..     \n")
+escreva(".:::::::::::::::...............!##::::::::::...............::::::::::::::::::::!#####:..        .                .      \n")
+escreva(":::::::::::::::................##!:::::::::::::::::::::..::::::::::::::::::::::!!####!..                  ..       .  . \n")
+escreva(":::::::::::::::................##!:::!!#######!!:::::::::::!!!#########!!::::::!!####:..            ...              .. \n")
+escreva(":::!:::::::::::................##!!############!!!:::::::!!###############!::::!!####..                                 \n")
+escreva("::::###!!:::::.................#######!!!!!!!!!!!!!::::!!!!!!####!!!!!######:::!!###!.                 .                \n")
+escreva("::::########::..............::##!!!!!!!!!!!!!!!!#####@###!!!!!!!!!!!!!!!!!!!#!!:!####..                                 \n")
+escreva(":::::########:..............:!#!!!!!##!!!!!!!####@######!!!!!!!!!!!!!!!!!!!!###..!##!.. .                               \n")
+escreva(":::::!#########!.............:#!!!!!!!############:.::##!!!!#############!!!#!!!!.!#!..                                 \n")
+escreva("..::::##########!.............#::::::!!!!!!!!!!#!:..:::##!!!!!!!!!!!!:!!!!!!!!::!#!#:    .                              \n")
+escreva("..:::::##########:...........!#!:::::::::::::!#!::.:::::##!!!!!!!!!!::::::!!!::::!!::!:                                 \n")
+escreva("....:::!#########@..........!!::###!!!!!!!####::::.::::::!#####!!!!!!!!###!::::::!!!!!!: .                              \n")
+escreva("....::::##########:.........!!::::::::::!!!!!!:::..::::!!!!!!!!!!!!::::::::::::::!:::!!:   .                            \n")
+escreva(".....:::!##########:........!:::::::::::!!!!:::::::::::::::!!!::::::::::::::::::!!!::::.                                \n")
+escreva("...::::::!##@#####@::.......::!:::::::!!!!!::::!::::!!!!::::!!!!!!::::::::::::::!:!::::.                                \n")
+escreva(".......:::###@####@:.:......::!::::!!!!!!!!!####!!!!!#####!!!!!!!!!!!::::::::::!#!!::::.                                \n")
+escreva(".....:::::!#########::::.....::::!!!!!!!!!!##################!!!!!!!!!!!!!!!!:!!!:::::.                                 \n")
+escreva("......:::###########!:::..:..:!:!!!!!##############################!!!!!!!!!::!!!::::: .                                \n")
+escreva("...::::::###@###@@###:..::..:!!!!!!!!###############################!!!!!!!!::!!!:::.                                .  \n")
+escreva(".::::##!###@##@#@#@!:::::..:..:!!!!!############!!!!#################!!!!!!!!!!!!!:.                .                   \n")
+escreva(":::::!#####!#@@@@@#::::::.:.:.:!!!!!#######::::::::!::!!!!!!#########!!!!!!!!!!. .                      .               \n")
+escreva(":::::::####!!@@#@@!::::::::::.:!!!!!!!!!!##!:::::::::::::::!!!##!!##!!!!!!!!!!:.                    .                   \n")
+escreva(":::::::::!:::@@@@@@!:::::::::::#!!!!!!!!!!!!!!!!!!!:!!!!!!!!!!!!!!!!!!!!!!!!!!.                                         \n")
+escreva("::::::::::::!@@@@@@!:::::::::::!#!!!!!!!!:::::!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!:..        .    .      .   .               \n")
+escreva("#@#:::::::::!#@@@#@!::::::::::::!##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!##!..........                                 \n")
+escreva("::!#!::::::::#@@@##!!!:::::::::::!##!!!::!!!##############!!!!!!!!#!#######!........................                    \n")
+escreva("####:::::::::!@@#!!!::::::::::::::####!:::::!!###########!!!!!!!!#########!....................................         \n")
+escreva("::!#:::::::::!@###!:::::::::::::::!#####!!!:!!!!!!##!!!!!!!:!!!#########!!:............................................. \n")
+escreva("####:::::::::####!!!!::::::::::::::########!!#!!####!!!!!!!#############!!!:............................................ \n")
+escreva("::::::::::::!#@##!!!!::::::::::::::!###@###############################!!!!!............................................ \n")
+escreva("::!::::::::!#####!!!!:::::::::::::::#####@###########################!!!#!!!!!.......................................... \n")
+escreva(":!:::::::::!#####!!!!:::::::::::::::!####@@@@@@@@#@@@@@@@@@@@@@###!!!!#!!!!!!!!!........................................ \n")
+escreva("::::::::::!!####!!!!:::::::::::::::::!!#######@@@@@@@@@@@@@#@##!!!!!##!!!!!!!!!!:....................................... \n")
+escreva(":::::::::!!##!#@#!:::::::::::::::!!##!!!!!#################!!!!!!!!##!!!!!!!!!!!!....................................... \n")
+escreva(":::::!!!!!.:!!#@#!!::!:!!!!!!!!!!####!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!!!!:...................................... \n")
+escreva(":::!!!!!!:....!###!!!!!!!!!!!!!#####@#!!!!!!!!!!!!!!!!!!!!!!!!!!!#!#!!!!!#!!!#!!!!!!!!:..!:::::::....................... \n")
+escreva(":!!!!!!!!.......!!!!!!!!!!!!!#!!!##@##!!!!!!!!!!!!!!!!!!!!!!!!!###!!!!!##!!!!!!!!!!!!!!!!!!!::::::::::.................. \n")
+escreva("!!!!!!!!..........!!!!!!!!#!!!!##@@#@@!!!!!!!!!!!!!!!!!!!!!!!!##!!!!###!!!!!!!##!!!!!!!!!!!!!::::::::::::.::::.......... \n")
+escreva("!!!!!!!........:!!!!!!!!!!!!!!#@@##@##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!#!!!!!!!!!!!!:!!!!!::!::::::::::::........ \n")
+escreva("!!!!!!........:!##!!!!!!!!!!##@@!#@##!!!:!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!#!!!!!!!!!!:!:!:!#!!::::::::::::::::....... \n")
+escreva("!!!!!:......:######!!!##!!!##@##@##!!!!!::!!!!!!!!!!!#!:!!!!!!!###!!!!!!!!!!####!!!!!:!:!!!!::::::::::::::::::::::...... \n")
+escreva("!!!!:......!#####!!!!#!!!!##@@!@@@@@@@@@@@@@@@@@@@#!:!!!!!!!!!###!!!!!!!!!!##!!!!!!!:!!!!!!!:::::::::!!!!!!!!!!::::..... \n")
+escreva("!!!!.....!#######!:!!!!####@@:@@@@@@@@@@@@@@@@@#::##!##!!!!!!##!!!!!!!!!!!!##!!!!:::!!!:!!!!!!!!!!!!!!!!!:!!!!::...:.... \n")
+escreva("!!!:....!#######!!!#!!#####@:#@@@@@@@@@@@@@#::!@@@!####@#!!!##!!!!!!!!!!!!##!!!!!::::::::::::::::::!::::::!::::::::::... \n")
+escreva("!!::...##########!!#######@!:@@@@@@@@@@@#::#@@@@!#####@@#@!!!!!!!!!!!!!!!##!!!!!!!!!!!:::::!::::!::::!!!::::::::::::::.. \n")
+escreva("!!!:..!#######!!!!###!!###!:@@@@@@@@#:.!#@@@@#!#!############!!!!!!!!!!###!!!!!!!!!!!::::::::!:::!!!!!!!!#!!!##!!!::::.. \n")
+
+		u.aguarde(3000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- Sim é so voce colocar o codigo 2008 naquela porta ")
+		
+		u.aguarde(3000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- Como voce sabe a senha ?")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- É que eu sou Hacker ")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("- Ok , obrigado ")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva(" Digite 1 para perguntar \n - Quem é voce ? ")
+		leia(perguntas2)
+		u.aguarde(1000)
+		limpa()
+
+		enquanto(perguntas2 != 1 ){
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva(" Digite 1 para perguntar \n -Quem é voce ? ")
+		leia(perguntas2)
+		u.aguarde(1000)
+		limpa()
+
+	}
+
+	se(perguntas2 == 1 ){
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Quem é voce? ")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("- Ola meu nome é Jefferson")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("-Muito prazer ")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Vamos colocar o ")
+		u.aguarde(500)
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("codigo que aquele ")
+		u.aguarde(500)
+		
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("cara falou ")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("o codigo era 2008")
+		u.aguarde(2000)
+		limpa()
+
+		escreva(" ________ \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|      O | \n")
+		u.aguarde(500)
+		escreva("|        | \n")
+		u.aguarde(500)
+		escreva("|________| \n ")
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(3000)
+		s.interromper_som(som)
+
+		escreva("insira o codigo: ")
+		leia(codigo)
+		u.aguarde(1000)
+		limpa()
+
+
+		enquanto(codigo != 2008 ){
+
+		s.reproduzir_som(som3, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som3)
+			
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(2000)
+		s.interromper_som(som)
+
+		escreva(" incorreto \n ")
+		escreva("insira o codigo: ")
+		leia(codigo)
+		u.aguarde(5000)
+		limpa()
+		}
+
+		se(codigo == 2008){
+
+			
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Abriu")
+		
+		u.aguarde(1000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Quando voce ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("abre aquela porta")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+			
+		escreva("      _____ \n")
+		u.aguarde(500)
+		escreva(" ____/|_||_`.__  \n")
+		u.aguarde(500)
+		escreva("|            __|  \n")
+		u.aguarde(500)
+		escreva("---(o)------(o)'J  \n")
+		
+		s.reproduzir_som(som5, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som5)
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("Voce avista um ")
+		u.aguarde(500)
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("carro passando e ")
+		u.aguarde(500)
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("voce grita ")
+		u.aguarde(500)
+		
+		u.aguarde(1000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("-Ei")
+		u.aguarde(2000)
+		limpa()
+
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("-Me ajude")
+		u.aguarde(2000)
+		limpa()
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("O carro parou ")
+		u.aguarde(500)
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("e resgatou voce ")
+		u.aguarde(500)
+
+		
+		s.reproduzir_som(som, falso)
+		s.definir_volume(100)
+		u.aguarde(1000)
+		s.interromper_som(som)
+
+		escreva("e o Jefferson")
+		u.aguarde(500)
+
+		u.aguarde(1000)
+		limpa()
+
+		escreva(" FIM \n")
+		escreva("Final Bom \n")
+		escreva("Criador: Gustavo do Nascimento \n")
+		escreva("Obrigado por jogar")
+			
+		}
+
+
+		se(inicio_p == 2){
+
+		escreva(" _______ \n")
+ 		escreva("|       | \n")
+ 		escreva("|       |\n")
+ 		escreva("|       |\n")
+ 		escreva("|     o |\n")
+ 		escreva("|       |\n")
+ 		escreva("|_______| \n")
+
+		escreva("Quando voce abre a porta")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce observa oque possui dentro daquela porta")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("possui uma escada para descer")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Digite 1 para descer as escadas \n")
+		leia(escadas)
+		u.aguarde(5000)
+		limpa()
+
+		enquanto(escadas != 1){
+
+		escreva("Digite 1 para descer as escadas \n ")
+		leia(escadas)
+		u.aguarde(5000)
+		limpa()
+		}
+
+
+		se(escadas == 1){
+
+		escreva(".")
+		u.aguarde(1000)
+
+		escreva(".")
+		u.aguarde(1000)
+
+		escreva(".")
+		u.aguarde(1000)
+
+		escreva(".")
+		u.aguarde(1000)
+
+		escreva(".")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai descendo")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce pergunta para si mesmo ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("-Como que eu fui parar aqui")
+		u.aguarde(5000)
+		limpa()
+
+
+		escreva("Voce chega finalmente no final das escadas")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Há uma porta e uma janela")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("digite 1 para abrir a porta ou digite 2 para abrir a janela \n")
+		leia(escolha_escadas)
+		u.aguarde(5000)
+		limpa()
+
+		se(escolha_escadas == 2){
+
+
+			
+		escreva(" +------+ \n")    
+		escreva(" |      | \n")    
+		escreva(" |      | \n")   
+		escreva(" +------+ \n ")  
+
+		escreva("Voce consegue abrir aquela janela")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai passar pela janela para fujir daquele local ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba escorregando ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("E acaba caindo ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba morrendo ao quebrar o pescoço")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Ruim \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		
+		
+			
+		}
+
+		se(escolha_escadas == 1 ){
+
+		escreva("Voce abre a porta")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Dentro da porta havia ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Um escorregador azul , um escorregador amarelo e um escorregdor verde")
+		u.aguarde(5000)
+		limpa()
+
+		
+	escreva("     AZUL \n")
+	escreva("    ******* \n")
+  escreva("  *          * \n")
+  escreva("*             * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*  	       * \n")
+ escreva(" *            * \n")
+   escreva ("    ******* \n \n")
+
+   escreva("    AMARELO \n")
+	escreva("    ******* \n")
+  escreva("  *          * \n")
+  escreva("*             * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*  	       * \n")
+ escreva(" *            * \n")
+     escreva ("    ******* \n \n")
+
+     
+	escreva("     VERDE \n")
+	escreva("    ******* \n")
+  escreva("  *          * \n")
+  escreva("*             * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*              * \n")
+ escreva("*  	       * \n")
+ escreva(" *            * \n")
+  escreva ("    ******* \n \n")
+
+    
+
+		escreva(" Digite 1 para o azul \n Digite 2 para amarelo \n Digite 3 para verde \n")
+		leia(escorregador)
+		u.aguarde(5000)
+		limpa()
+
+		enquanto(escorregador != 1 ou escorregador != 2 ou escorregador != 3){
+
+		escreva(" Digite 1 para o azul \n Digite 2 para amarelo \n Digite 3 para verde \n")
+		leia(escorregador)
+		u.aguarde(5000)
+		limpa()
+			
+		}
+
+		se(escorregador == 1){
+
+		escreva("Voce escolheu o escorregador azul")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai escorrendo voce acaba vendo uma luz ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Mas quando voce chega na luz")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba caindo em um rio")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Quando voce vai sair daquele rio ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Um jacare gigante surge e devora voce")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Ruim \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		u.aguarde(5000)
+		limpa()
+
+			
+		}
+
+		se(escorregador == 2 ){
+
+
+			escreva("Voce escolhe o escorregador amarelo")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Enquanto voce vai escoregando observa uma luz no final do escorregador")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce sai do escorregador e vê que está no jardim de casa")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Bom \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		u.aguarde(5000)
+		limpa()
+
+
+
+		
+		}
+
+		se(escorregador ==3){
+
+		escreva("Voce escolhe o escorregador verde ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Enquanto voce vai descendo no escorregador ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce acaba vendo que há uma parede cheia de rochas pontudas")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Voce até tenta parar de escorregar ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("Mas voce não consegue e acaba morrendo após ser perfurado por uma rocha pontuda ")
+		u.aguarde(5000)
+		limpa()
+
+		escreva("FIM \n Final Ruim \n Criador: Gustavo do Nascimento \n Obrigado por jogar")
+		u.aguarde(5000)
+		limpa()
+			
+		}
+		}
+		}
+		}
+}
+
+	}
+	}
+	}
+	}
+}
+	
